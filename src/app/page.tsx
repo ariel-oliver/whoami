@@ -15,6 +15,7 @@ const jsonLd = {
   "@type": "Person",
   name: profile.name,
   jobTitle: profile.role,
+  url: profile.siteUrl,
   email: `mailto:${profile.email}`,
   address: { "@type": "PostalAddress", addressCountry: "PT" },
   sameAs: [profile.linkedin, profile.github],

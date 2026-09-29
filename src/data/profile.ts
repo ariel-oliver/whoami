@@ -4,6 +4,7 @@
 
 export const profile = {
   name: "Arielson Oliveira",
+  siteUrl: "https://arielson.dev",
   shortName: "Arielson",
   role: "Platform Engineer",
   tagline: "Cloud, DevOps & AI",

@@ -24,4 +24,5 @@ Edit the data, rebuild, deploy. No component changes needed.
 
 ## Deploy
 
-`npm run build` writes a fully static site to `out/`. Host it on Vercel, Netlify, Cloudflare Pages or GitHub Pages.
+Pushes to `main` deploy to GitHub Pages via `.github/workflows/deploy.yml`.
+Live at https://arielson.dev (custom domain set in Settings → Pages; DNS on Cloudflare).

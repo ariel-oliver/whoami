@@ -10,12 +10,15 @@ const mono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 const description = `${profile.role} — ${profile.tagline}. ${profile.summary}`;
 
 export const metadata: Metadata = {
+  metadataBase: new URL(profile.siteUrl),
+  alternates: { canonical: "/" },
   title: `${profile.name} — ${profile.role} for hire`,
   description,
   openGraph: {
     title: `${profile.name} — ${profile.role}`,
     description,
     type: "website",
+    url: profile.siteUrl,
   },
   twitter: { card: "summary_large_image", title: profile.name, description },
 };
